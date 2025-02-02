@@ -1,6 +1,6 @@
 # Weatherly
 
-# Weather App with Colorful Output and ASCII Art
+# 🌤️ **Weather App with Colorful Output and ASCII Art** 🌈
 
 ## Overview
 
@@ -8,15 +8,15 @@ This Python script fetches weather data from the OpenWeatherMap API and displays
 
 ## Features
 
-- **Fetches weather data** using the OpenWeatherMap API.
-- **Displays the weather stats** in a clean, readable format, including:
-  - Temperature (in Fahrenheit)
-  - Humidity
-  - Wind Speed
-- **Dynamic ASCII Art**: Displays the word "Weather" in a random style using:
+- 🌍 **Fetches weather data** using the OpenWeatherMap API.
+- ☁️ **Displays the weather stats** in a clean, readable format, including:
+  - 🌡️ **Temperature** (in Fahrenheit)
+  - 💧 **Humidity**
+  - 🌬️ **Wind Speed**
+- 🎨 **Dynamic ASCII Art**: Displays the word "Weather" in a random style using:
   - `figlet` with a random font from available fonts.
   - `cowsay/cowthink` with random characters (like cow, dragon, tux, moose, and hellokitty).
-- **Colorful Output**: Weather stats are shown in bright colors for clarity.
+- 🌈 **Colorful Output**: Weather stats are shown in bright colors for clarity.
 
 ## Requirements
 
@@ -69,4 +69,16 @@ This Python script fetches weather data from the OpenWeatherMap API and displays
 3. The weather information will be displayed in a colorful format, with ASCII art at the top.
 
 ### Sample Output:
+
+```bash
+  _       __     __         _
+ / |      \ \   / /  _   _  | |
+ | |     __\ \_/ /__| |_| | | |
+ | |    / __   _/ __|     | | |
+ |_|   /_/  \_/\__  \____/  |_|      
+Weather Stats for London, GB:
+Description: Light rain
+Temperature : 55.9 °F
+Humidity: 72%
+Wind Speed: 4.56 mph
 
